@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AlimFileShareV20</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AlimFileShareV20</h1>
+    <p>Upload your file and get a real shareable link</p>
+    <form id="uploadForm">
+      <input type="file" id="fileInput" required />
+      <button type="submit">Upload</button>
+    </form>
+    <div id="linkContainer" class="hidden">
+      <p>✅ Shareable Link:</p>
+      <input type="text" id="fileLink" readonly />
+    </div>
+  </div>
+  <script src="upload.js"></script>
+</body>
+</html>
